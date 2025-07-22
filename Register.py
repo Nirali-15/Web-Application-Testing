@@ -15,8 +15,6 @@ driver.find_element(By.NAME, "phone").send_keys("9876543210")
 driver.find_element(By.NAME, "password").send_keys("admin@123")
 driver.find_element(By.NAME, "confirmPassword").send_keys("admin@123")
 driver.find_element(By.NAME, "acceptTerms").click()
-
 driver.find_element(By.XPATH, "//button[contains(text(), 'Sign Up')]").click()
 
 time.sleep(5)
-driver.close()

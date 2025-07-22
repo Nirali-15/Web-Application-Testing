@@ -12,7 +12,7 @@ driver.find_element(By.NAME, "email").send_keys("admin@gmail.com")
 driver.find_element(By.NAME,"password").send_keys("admin@15")
 
 actual_title=driver.title
-expected_title ="React App"
+expected_title ="FarmFlow"
 if actual_title == expected_title:
     print("Login Successful")
 else:
